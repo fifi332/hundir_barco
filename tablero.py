@@ -6,7 +6,7 @@ class Tablero:
         self.TOCADO = 1
         self.HUNDIDO = 2
 
-        self.nave = Nave("submarino",1)
+        self.nave = Nave("submarino","portaviones",1)
 
         self.nave_x = 3
         self.nave_y = 2
