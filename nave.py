@@ -1,6 +1,7 @@
 class Nave:
-    def __init__(self, nombre, tamano):
+    def __init__(self, nombre, tipo, tamano):
         self.nombre = nombre
+        self.tipo = tipo
         self.vida = tamano
         self.hundido = False
         self.TOCADO = 1
