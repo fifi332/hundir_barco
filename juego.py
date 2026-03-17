@@ -5,7 +5,7 @@ class Juego:
         self.lanzar_ataque(1, 1)
         self.lanzar_ataque(1, 2)
         self.lanzar_ataque(1, 3)
-        self.lanzar_ataque(1,4)
+        self.lanzar_ataque(1, 4)
         self.lanzar_ataque(1, 5)
 
 
