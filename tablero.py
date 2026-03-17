@@ -1,6 +1,4 @@
 from nave import Nave
-
-
 class Tablero:
     def __init__(self, tamanho=10):
         # self.tamanho = tamanho
