@@ -1,12 +1,12 @@
 from tablero import Tablero
 
-# Clase principal que gestiona la logica general del juego
+# Clase principal que gestiona el juego en general
 class Juego:
     # Crea un tablero y lanza algunos ataques
     def __init__(self):
-        self.tablero = Tablero()  # Se inicializa el tablero con las naves colocadas
+        self.tablero = Tablero()  # Se inicia el tablero con las naves colocadas
 
-        # Ejemplo de ataques automáticos para probar el funcionamiento
+        # Ejemplo de ataques para probar el funcionamiento
         self.lanzar_ataque(1, 0)
         self.lanzar_ataque(1, 0)
         self.lanzar_ataque(1, 1)
@@ -14,7 +14,7 @@ class Juego:
         self.lanzar_ataque(1, 3)
         self.lanzar_ataque(1, 4)
 
-    # Muestra el resultado del disparo en texto según el número recibido
+    # Muestra el resultado del disparo
     def mostrar_resultado(self, resultado):
         if resultado == 0:
             print("Agua")

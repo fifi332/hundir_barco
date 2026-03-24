@@ -1,6 +1,6 @@
 # Clase que representa una nave en el juego
 class Nave:
-    # Constructor de la clase Nave. Crea una nave con su nombre, tipo y cantidad de vida inicial
+    # Crea una nave con su nombre, tipo y cantidad de vida inicial
     def __init__(self, nombre, tipo, vida):
         self.nombre = nombre        # Nombre identificador de la nave
         self.tipo = tipo            # Tipo de nave ("submarino", "fragata", etc.)

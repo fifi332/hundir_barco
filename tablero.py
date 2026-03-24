@@ -2,11 +2,11 @@ from casilla import *
 
 # Clase que representa el tablero de juego, formado por casillas con naves o agua
 class Tablero:
-    # Crea un tablero cuadrado (por defecto de 10x10)
+    # Crea un tablero cuadrado (de 10x10)
     def __init__(self, tamanho=10):
-        self.AGUA = 0         # Constante para indicar disparo al agua
-        self.TOCADO = 1       # Constante para indicar nave tocada
-        self.HUNDIDO = 2      # Constante para indicar nave hundida
+        self.AGUA = 0         # indica disparo al agua
+        self.TOCADO = 1       # indica nave tocada
+        self.HUNDIDO = 2      # indica nave hundida
 
         # Se crean varios objetos Nave con diferentes tipos y vidas
         por1 = Nave("pipi", "portaaviones", 5)
